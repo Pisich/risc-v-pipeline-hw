@@ -83,6 +83,22 @@ wire [31:0] instruction_bus_w;
 /**Data memory**/	
 wire [31:0] read_Data_o_w;
 
+/**Pipeline HW**/
+wire [31:0] instruction_w_o;
+wire [31:0] sig_pc_w;
+wire [31:0] imm_w_o;
+wire [31:0] rd_1_w_o;
+wire [31:0] rd_2_w_o;
+wire [31:0] alu_op_w_o;
+wire [31:0] mux_output_w_o;
+wire reg_write_w_o;
+wire [4:0] write_reg_w_o;
+wire [31:0] p_alu_res_w;
+wire reg_write_o;
+wire [4:0] write_reg;
+wire flush;
+
+
 //******************************************************************/
 //******************************************************************/
 //******************************************************************/
@@ -292,6 +308,67 @@ MUX_ALU_RESULT_OR_READ_DATA
 	.Mux_Output_o(write_data_i_w)
 
 );
+
+PHASE_IFID
+IF_ID
+(
+	.clk(clk),
+	.reset(reset),
+	.flush(flush),
+	.instruction_w(instruction_bus_w),
+	.sig_pc_w(pc_plus_4_w),
+	.instruction_w_o(instruction_w_o),
+	.sig_pc_w_o(sig_pc_w)
+	
+);
+
+PHASE_IDEX
+#(
+	.N(32)
+)
+ID_EX
+(
+	.clk(clk),
+	.reset(reset),
+	.flush(flush),
+	.immediate_data_w(inmmediate_data_w),
+	.rd1_w(read_data_1_w),
+	.rd2_w(read_data_2_w),
+	.alu_operation_w(alu_operation_w),
+	.write_w(reg_write_w),
+	.write_register_w(instruction_w_o[11:7]),
+	.immediate_data_w_o(immediate_data_w_o),
+	.rd1_w_o(rd_1_w_o),
+	.rd2_w_o(rd_2_w_o),
+	.alu_operation_w_o(alu_operation_w_o),
+	.write_w_o(reg_write_w_o),
+	.write_register_w_o(write_register_w_o)
+);
+
+PHASE_EXMEM
+EX_MEM
+(
+	.clk(clk),
+	.reset(reset),
+	.flush(flush),
+	.alu_result_w(alu_result_w),
+	.write_w(reg_write_w_o),
+	.write_register_w(write_register_w_o),
+	.alu_result_w_o(p_alu_res_w),
+	.write_o(reg_write_o),
+	.write_register_w_o(write_reg)
+);
+
+PHASE_MEMWB
+MEM_WB
+(
+	.clk(clk),
+	.reset(reset),
+	.flush(flush),
+	.rd_w(read_Data_o_w),
+	.rd_w_o(mux_output_w_o)
+);
+
 
 assign data_out = alu_result_w;
 

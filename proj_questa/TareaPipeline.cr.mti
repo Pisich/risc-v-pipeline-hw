@@ -1,0 +1,144 @@
+C:/ArquiComp/TareaPipeline/src/PC_Register.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/PC_Register.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PC_Register
+
+Top level modules:
+	PC_Register
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Program_Memory.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Program_Memory.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Program_Memory
+
+Top level modules:
+	Program_Memory
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Decoder_Register_File.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Decoder_Register_File.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Decoder_Register_File
+
+Top level modules:
+	Decoder_Register_File
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/EX-MEM.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/EX-MEM.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PHASE_EXMEM
+
+Top level modules:
+	PHASE_EXMEM
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/ALU_Control.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/ALU_Control.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ALU_Control
+
+Top level modules:
+	ALU_Control
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle_TB.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle_TB.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module RISC_V_Single_Cycle_TB
+
+Top level modules:
+	RISC_V_Single_Cycle_TB
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/MUX_Register_File.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/MUX_Register_File.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module MUXRegisterFile
+
+Top level modules:
+	MUXRegisterFile
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module RISC_V_Single_Cycle
+
+Top level modules:
+	RISC_V_Single_Cycle
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Multiplexer_2_to_1.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Multiplexer_2_to_1.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Multiplexer_2_to_1
+
+Top level modules:
+	Multiplexer_2_to_1
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/ID-EX.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/ID-EX.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PHASE_IDEX
+
+Top level modules:
+	PHASE_IDEX
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Control.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Control.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/IF-ID.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/IF-ID.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PHASE_IFID
+
+Top level modules:
+	PHASE_IFID
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/ALU.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/ALU.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Data_Memory.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Data_Memory.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Mul_32_Bits.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Mul_32_Bits.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Mul_32_Bits
+
+Top level modules:
+	Mul_32_Bits
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Register_File.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Register_File.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/MUL32_bits.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/MUL32_bits.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Register.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Register.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Adder_32_Bits.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Adder_32_Bits.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Adder_32_Bits
+
+Top level modules:
+	Adder_32_Bits
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/MEM-WB.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/MEM-WB.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PHASE_MEMWB
+
+Top level modules:
+	PHASE_MEMWB
+
+} {} {}} C:/ArquiComp/TareaPipeline/src/Immediate_Unit.v {1 {vlog -work work -vopt -stats=none C:/ArquiComp/TareaPipeline/src/Immediate_Unit.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Immediate_Unit
+
+Top level modules:
+	Immediate_Unit
+
+} {} {}}

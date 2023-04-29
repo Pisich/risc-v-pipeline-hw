@@ -1,0 +1,482 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Intel
+T_opt
+!s110 1682742923
+V[8DcVPBn>6MP@O;?zl1j`2
+04 22 4 work RISC_V_Single_Cycle_TB fast 0
+=1-902e1691a44a-644c9e86-23a-12a8c
+!s124 OEM10U56 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vAdder_32_Bits
+!s110 1682742766
+!i10b 1
+!s100 ]]1J@==K`8kPSg5PUDi8W3
+IFI7G6?S07TmQ2Ha9@:OK83
+Z1 dC:/ArquiComp/TareaPipeline/proj_questa
+Z2 w1679291074
+8C:/ArquiComp/TareaPipeline/src/Adder_32_Bits.v
+FC:/ArquiComp/TareaPipeline/src/Adder_32_Bits.v
+!i122 0
+L0 13 16
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
+r1
+!s85 0
+31
+!s108 1682742765.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Adder_32_Bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Adder_32_Bits.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@adder_32_@bits
+vALU
+!s110 1682742767
+!i10b 1
+!s100 6^b_[df>lhK=L?CA697S;0
+I^aC]5@[[QSD0lS`maUG7[2
+R1
+w1680500248
+8C:/ArquiComp/TareaPipeline/src/ALU.v
+FC:/ArquiComp/TareaPipeline/src/ALU.v
+!i122 1
+L0 17 81
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742767.000000
+!s107 C:/ArquiComp/TareaPipeline/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/ALU.v|
+!i113 0
+R5
+R0
+n@a@l@u
+vALU_Control
+!s110 1682742768
+!i10b 1
+!s100 k9j57=FLZK>0X6i61Z7Qj1
+I2JGDISU=08D9V?7NmIcEE0
+R1
+w1680500218
+8C:/ArquiComp/TareaPipeline/src/ALU_Control.v
+FC:/ArquiComp/TareaPipeline/src/ALU_Control.v
+!i122 2
+L0 15 96
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742768.000000
+!s107 C:/ArquiComp/TareaPipeline/src/ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/ALU_Control.v|
+!i113 0
+R5
+R0
+n@a@l@u_@control
+vControl
+!s110 1682742770
+!i10b 1
+!s100 11I^I6hLho;0KS0g`H=ff2
+II3WUA;XbmKd7Mj`XK68l;0
+R1
+w1680484236
+8C:/ArquiComp/TareaPipeline/src/Control.v
+FC:/ArquiComp/TareaPipeline/src/Control.v
+!i122 3
+L0 14 62
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742770.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Control.v|
+!i113 0
+R5
+R0
+n@control
+vData_Memory
+!s110 1682742771
+!i10b 1
+!s100 z86cQICfUFR84NGlVgkA63
+I4am6O3k8jH>8>2CRz_FgP2
+R1
+w1680499496
+8C:/ArquiComp/TareaPipeline/src/Data_Memory.v
+FC:/ArquiComp/TareaPipeline/src/Data_Memory.v
+!i122 4
+L0 13 35
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742771.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Data_Memory.v|
+!i113 0
+R5
+R0
+n@data_@memory
+vDecoder_Register_File
+!s110 1682742772
+!i10b 1
+!s100 McjJ;eT`CL^gKzSaHBkF33
+IW8S6Z@OK:XFhH2P5_CNMM1
+R1
+R2
+8C:/ArquiComp/TareaPipeline/src/Decoder_Register_File.v
+FC:/ArquiComp/TareaPipeline/src/Decoder_Register_File.v
+!i122 5
+L0 12 50
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742772.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Decoder_Register_File.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Decoder_Register_File.v|
+!i113 0
+R5
+R0
+n@decoder_@register_@file
+vImmediate_Unit
+!s110 1682742778
+!i10b 1
+!s100 YTjf@B^CYY@YR664P8mZZ0
+IIFdlAC=ONKT]beG[]POoP0
+R1
+w1680501966
+8C:/ArquiComp/TareaPipeline/src/Immediate_Unit.v
+FC:/ArquiComp/TareaPipeline/src/Immediate_Unit.v
+!i122 9
+L0 14 30
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742777.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Immediate_Unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Immediate_Unit.v|
+!i113 0
+R5
+R0
+n@immediate_@unit
+vMul_32_Bits
+!s110 1682742780
+!i10b 1
+!s100 UNNTcWmNSoJn<=23f0[D42
+Ihl^4AjnILUVkB7H5WUj:j2
+R1
+w1680475518
+8C:/ArquiComp/TareaPipeline/src/Mul_32_Bits.v
+FC:/ArquiComp/TareaPipeline/src/Mul_32_Bits.v
+!i122 11
+L0 1 14
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742780.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Mul_32_Bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Mul_32_Bits.v|
+!i113 0
+R5
+R0
+n@mul_32_@bits
+vMultiplexer_2_to_1
+!s110 1682742783
+!i10b 1
+!s100 ;:eeJ;AHY7A^Ld9RHQfQ[0
+I6Zm4=iM^BoC69^QNna44l0
+R1
+R2
+8C:/ArquiComp/TareaPipeline/src/Multiplexer_2_to_1.v
+FC:/ArquiComp/TareaPipeline/src/Multiplexer_2_to_1.v
+!i122 12
+L0 13 21
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742783.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Multiplexer_2_to_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Multiplexer_2_to_1.v|
+!i113 0
+R5
+R0
+n@multiplexer_2_to_1
+vMUXRegisterFile
+!s110 1682742785
+!i10b 1
+!s100 nBWFB0n:b]lZh_XigEU=]1
+Ia?BJE960Sh_ELK8iae7?h1
+R1
+w1679291076
+8C:/ArquiComp/TareaPipeline/src/MUX_Register_File.v
+FC:/ArquiComp/TareaPipeline/src/MUX_Register_File.v
+!i122 13
+L0 2 82
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742784.000000
+!s107 C:/ArquiComp/TareaPipeline/src/MUX_Register_File.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/MUX_Register_File.v|
+!i113 0
+R5
+R0
+n@m@u@x@register@file
+vPC_Register
+!s110 1682742786
+!i10b 1
+!s100 _eD0RXMdR6B[1odGKg:Fl2
+I1K_63m`5a3QKKonfo9]Rg1
+R1
+w1680541236
+8C:/ArquiComp/TareaPipeline/src/PC_Register.v
+FC:/ArquiComp/TareaPipeline/src/PC_Register.v
+!i122 14
+L0 15 21
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742786.000000
+!s107 C:/ArquiComp/TareaPipeline/src/PC_Register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/PC_Register.v|
+!i113 0
+R5
+R0
+n@p@c_@register
+vPHASE_EXMEM
+!s110 1682742774
+!i10b 1
+!s100 35k9=f7?G<?^Ne05oIh?Y0
+ITa;zSnSAZYTX7ehLQWPOm2
+R1
+w1682742512
+8C:/ArquiComp/TareaPipeline/src/EX-MEM.v
+FC:/ArquiComp/TareaPipeline/src/EX-MEM.v
+!i122 6
+L0 1 35
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742773.000000
+!s107 C:/ArquiComp/TareaPipeline/src/EX-MEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/EX-MEM.v|
+!i113 0
+R5
+R0
+n@p@h@a@s@e_@e@x@m@e@m
+vPHASE_IDEX
+!s110 1682742775
+!i10b 1
+!s100 hL?dYeUF5O^L8oD:PhNSV1
+IE6`CTWMQQhNH;c`_V<D?R0
+R1
+w1682742509
+8C:/ArquiComp/TareaPipeline/src/ID-EX.v
+FC:/ArquiComp/TareaPipeline/src/ID-EX.v
+!i122 7
+L0 1 46
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742775.000000
+!s107 C:/ArquiComp/TareaPipeline/src/ID-EX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/ID-EX.v|
+!i113 0
+R5
+R0
+n@p@h@a@s@e_@i@d@e@x
+vPHASE_IFID
+!s110 1682742776
+!i10b 1
+!s100 6<ZZbE8D[:78EFP8J9^gf2
+ITTYU:V@ibm35=8QeMNgR_1
+R1
+w1682742485
+8C:/ArquiComp/TareaPipeline/src/IF-ID.v
+FC:/ArquiComp/TareaPipeline/src/IF-ID.v
+!i122 8
+L0 1 28
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742776.000000
+!s107 C:/ArquiComp/TareaPipeline/src/IF-ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/IF-ID.v|
+!i113 0
+R5
+R0
+n@p@h@a@s@e_@i@f@i@d
+vPHASE_MEMWB
+!s110 1682742779
+!i10b 1
+!s100 N2E:PW7E]0NPTj>1D2;NO1
+IV9OKGOje3c4A^bEF=F2_10
+R1
+w1682742515
+8C:/ArquiComp/TareaPipeline/src/MEM-WB.v
+FC:/ArquiComp/TareaPipeline/src/MEM-WB.v
+!i122 10
+L0 1 26
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742779.000000
+!s107 C:/ArquiComp/TareaPipeline/src/MEM-WB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/MEM-WB.v|
+!i113 0
+R5
+R0
+n@p@h@a@s@e_@m@e@m@w@b
+vProgram_Memory
+!s110 1682742787
+!i10b 1
+!s100 ?RSTAzEEOaa2cn6T`eOEc2
+I6RSPY3TkkNO[d0H_?k_Jd0
+R1
+w1682735029
+8C:/ArquiComp/TareaPipeline/src/Program_Memory.v
+FC:/ArquiComp/TareaPipeline/src/Program_Memory.v
+!i122 15
+L0 15 28
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742787.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Program_Memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Program_Memory.v|
+!i113 0
+R5
+R0
+n@program_@memory
+vRegister
+!s110 1682742789
+!i10b 1
+!s100 ]IFjI7N9SPCQ:`I[K7aFm1
+IKi[WAfW[ne4z?V8UU7Xei1
+R1
+w1680540816
+8C:/ArquiComp/TareaPipeline/src/Register.v
+FC:/ArquiComp/TareaPipeline/src/Register.v
+!i122 16
+L0 12 26
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742789.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Register.v|
+!i113 0
+R5
+R0
+n@register
+vRegister_File
+!s110 1682742790
+!i10b 1
+!s100 28HWIRFWX6TzPTFUdFjX11
+IeJaOZ<AoE>QDEfNn0LMZP0
+R1
+w1680541798
+8C:/ArquiComp/TareaPipeline/src/Register_File.v
+FC:/ArquiComp/TareaPipeline/src/Register_File.v
+!i122 17
+L0 15 545
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742790.000000
+!s107 C:/ArquiComp/TareaPipeline/src/Register_File.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/Register_File.v|
+!i113 0
+R5
+R0
+n@register_@file
+vRISC_V_Single_Cycle
+!s110 1682742792
+!i10b 1
+!s100 zTiU^94LM0@F7eUlKBJl`2
+I^hR0X`QgJ1Z7cMUk5]GEk3
+R1
+w1682742613
+8C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle.v
+FC:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle.v
+!i122 18
+L0 20 358
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742791.000000
+!s107 C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle.v|
+!i113 0
+R5
+R0
+n@r@i@s@c_@v_@single_@cycle
+vRISC_V_Single_Cycle_TB
+!s110 1682742793
+!i10b 1
+!s100 OPPVKVTORA]kkR3fMTCaO2
+IBS<@kaJ>l?bT9FZ^fJ2Am2
+R1
+w1682636740
+8C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle_TB.v
+FC:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle_TB.v
+!i122 19
+L0 15 26
+R3
+R4
+r1
+!s85 0
+31
+!s108 1682742793.000000
+!s107 C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle_TB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/ArquiComp/TareaPipeline/src/RISC_V_Single_Cycle_TB.v|
+!i113 0
+R5
+R0
+n@r@i@s@c_@v_@single_@cycle_@t@b

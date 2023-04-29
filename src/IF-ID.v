@@ -11,9 +11,9 @@ module PHASE_IFID
 );
 
 
-always @(negedge reset or posedge clk)
+always @(negedge reset or negedge flush or posedge clk)
 	begin
-		if (reset == 0 or flush == 0)
+		if (reset == 0 || flush == 0)
 			begin
 				instruction_w_o <= 0;
 				sig_pc_w_o <= 0;

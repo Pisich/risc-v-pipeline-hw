@@ -1,5 +1,5 @@
 Flow report for RISC_V_Single_Cycle
-Thu Apr 27 16:17:42 2023
+Fri Apr 28 22:30:33 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,17 +41,17 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 27 16:17:42 2023          ;
+; Flow Status                        ; Successful - Fri Apr 28 22:30:33 2023          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; RISC_V_Single_Cycle                            ;
 ; Top-level Entity Name              ; RISC_V_Single_Cycle                            ;
 ; Family                             ; MAX 10                                         ;
 ; Device                             ; 10M50DAF484I7G                                 ;
 ; Timing Models                      ; Final                                          ;
-; Total logic elements               ; 16,012                                         ;
-;     Total combinational functions  ; 7,535                                          ;
-;     Dedicated logic registers      ; 8,576                                          ;
-; Total registers                    ; 8576                                           ;
+; Total logic elements               ; 1,226                                          ;
+;     Total combinational functions  ; 1,066                                          ;
+;     Dedicated logic registers      ; 222                                            ;
+; Total registers                    ; 222                                            ;
 ; Total pins                         ; 34                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 0                                              ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/27/2023 16:16:19 ;
+; Start date & time ; 04/28/2023 22:30:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; RISC_V_Single_Cycle ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 158527621538890.168263377860304        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 158527621538890.168274261613392        ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -105,8 +105,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:22     ; 1.0                     ; 4830 MB             ; 00:01:42                           ;
-; Total                ; 00:01:22     ; --                      ; --                  ; 00:01:42                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4760 MB             ; 00:00:37                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:37                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

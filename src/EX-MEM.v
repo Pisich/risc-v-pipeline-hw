@@ -16,9 +16,9 @@ module PHASE_EXMEM
 
 );
 
-always @(negedge reset or posedge clk)
+always @(negedge reset or negedge flush or posedge clk)
 	begin
-		if (reset == 0 or flush == 0)
+		if (reset == 0 || flush == 0)
 			begin
 				alu_result_w_o <= 0;
 				write_o <= 0;

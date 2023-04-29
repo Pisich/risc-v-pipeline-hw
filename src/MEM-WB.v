@@ -7,23 +7,19 @@ module PHASE_MEMWB
 	input reset,
 	input flush,
    input [N-1:0] rd_w,
-   input [N-1:0] mux_mem_to_reg_w,
 
-   output reg [N-1:0] rd_w_o,
-   output reg [N-1:0] mux_mem_to_reg_w_o
+   output reg [N-1:0] rd_w_o
 );
 
-always @(negedge reset or posedge clk)
+always @(negedge reset or negedge flush or posedge clk)
     begin
-		if (reset == 0 or flush == 0)
+		if (reset == 0 || flush == 0)
 			begin
                 rd_w_o <= 0;
-                mux_output_mem_to_reg_w_o <= 0;
 			end
 		else
 			begin
                 rd_w_o <= rd_w;
-                mux_mem_to_reg_w_o <= mux_mem_to_reg_w;
 			end
 	end
 
